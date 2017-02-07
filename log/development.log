@@ -617,3 +617,19 @@ Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bd
 
 
 Started GET "/assets/rails-c094bc3a4bf50e5bb477109e5cb0d213af27ad75b481c4df249f50974dbeefe6.png" for 127.0.0.1 at 2017-02-06 18:35:18 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-07 15:03:05 +0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2133.5ms)
+  Rendered layouts/_header.html.erb (91.0ms)
+  Rendered layouts/_footer.html.erb (15.6ms)
+Completed 200 OK in 44167ms (Views: 43448.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-07 15:03:53 +0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (18.7ms)
+  Rendered layouts/_header.html.erb (238.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 3007ms (Views: 3006.0ms | ActiveRecord: 0.0ms)
