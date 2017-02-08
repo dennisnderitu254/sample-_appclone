@@ -6,6 +6,8 @@ gem 'rails', '4.2.6'
 # Use sqlite3 as the database for Active Record
 gem 'bcrypt',         '3.1.11'
 
+gem 'puma' ,      '3.7.0.'
+
 gem 'bootstrap-sass', '3.3.6'
 # uses sass bootstrap as the database for active record
 gem 'sqlite3', '~> 1.3', '>= 1.3.13'
