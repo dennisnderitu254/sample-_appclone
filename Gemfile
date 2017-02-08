@@ -6,7 +6,16 @@ gem 'rails', '4.2.6'
 # Use sqlite3 as the database for Active Record
 gem 'bcrypt',         '3.1.11'
 
-gem 'puma' ,      '3.7.0.'
+gem "hoe"
+gem "hoe-git"
+gem "hoe-ignore"
+gem "rdoc"
+gem "rake-compiler"
+
+gem "rack", "< 3.0"
+gem "minitest", "~> 5.9"
+
+gem "jruby-openssl", :platform => "jruby"  
 
 gem 'bootstrap-sass', '3.3.6'
 # uses sass bootstrap as the database for active record
