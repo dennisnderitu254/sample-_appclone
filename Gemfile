@@ -8,6 +8,11 @@ gem 'rails', '4.2.6'
 
 gem 'bcrypt', '~> 3.1.7'
 
+gem 'faker',          '1.6.6'
+
+gem 'will_paginate',           '3.1.0'
+gem 'bootstrap-will_paginate', '0.0.10'
+
 gem "hoe"
 gem "hoe-git"
 gem "hoe-ignore"

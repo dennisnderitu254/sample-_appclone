@@ -10,6 +10,9 @@ class User < ActiveRecord::Base
   validates :password, presence: true, length:{ minimum: 6 }
 
   has_secure_password
+
+  validates :password, presence: true, length: { minimum: 6 }, allow_nil: true 
+
 end
    
     class << self
