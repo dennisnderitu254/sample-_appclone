@@ -25,7 +25,7 @@ gem "minitest", "~> 5.9"
 
 gem 'bootstrap-sass', '3.3.6'
 # uses sass bootstrap as the database for active record
-gem 'sqlite3', '~> 1.3', '>= 1.3.13'
+gem 'pg' 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
