@@ -22,11 +22,15 @@ gem "rake-compiler"
 gem "rack", "< 3.0"
 gem "minitest", "~> 5.9"
 
+gem 'activerecord-jdbcpostgresql-adapter'
+
+gem 'rails_12factor', group: :production
+
 gem "jruby-openssl", :platform => "jruby"  
 
 gem 'bootstrap-sass', '3.3.6'
 # uses sass bootstrap as the database for active record
-gem 'sqlite3', '~> 1.3', '>= 1.3.13'
+gem 'pg' 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -67,3 +71,4 @@ group :development do
   gem 'spring'
 end
 
+ruby "2.3.1"
