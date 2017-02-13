@@ -21,7 +21,6 @@ gem "rake-compiler"
 
 gem "rack", "< 3.0"
 gem "minitest", "~> 5.9"
- 
 
 gem 'bootstrap-sass', '3.3.6'
 # uses sass bootstrap as the database for active record
